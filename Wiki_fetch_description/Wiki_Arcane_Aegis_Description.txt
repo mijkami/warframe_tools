@@ -1,0 +1,26 @@
+Arcane Aegisis anArcane Enhancementthat provides a 3% chance whenever the player receives damage toshieldsto regenerateWarframeShieldsfor 12 seconds.
+Can be sold for1,000Credits1,000.
+All drop rates data is obtained fromDE's official drop tablesstored onModule:DropTables/data.
+SeeMission Rewards#Standard Missionsfor definitions on reward table rotations.For more detailed definitions and information,
+visithere.
+Hotfix 34.0.2(2023-10-19)
+Update 31.6(2022-06-09)
+We’ve adjusted the values of older Arcanes with the goal of making lower rank Arcanes more viable, and more desirable while collecting as a result. In short, there are three stats that each Arcane tends to have (speaking generally) -- for example, a percentage chance, a stat buff, and the duration of the buff.
+Certain Arcanes increase all of these stats per rank (making them scale exponentially), but we are changing it so that only one stat is affected by rank (making it scale linearly). The other stats will now be at the max-rank value regardless of the Arcane Rank, thereby buffing lower-rank Arcanes as a result.
+On Shield Damaged: 3% (was 1%) chance for 5%/30% Shield Recharge for 12s (was 2s)
+Update 17.9.1(2015-10-29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

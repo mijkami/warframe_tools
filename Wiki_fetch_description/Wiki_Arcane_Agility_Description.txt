@@ -1,0 +1,26 @@
+Arcane Agilityis anArcane Enhancementthat provides a 60% chance whenever the player receives damage to increaseWarframeparkour velocity for 18 seconds.
+Can be sold for500Credits500.
+All drop rates data is obtained fromDE's official drop tablesstored onModule:DropTables/data.
+SeeMission Rewards#Standard Missionsfor definitions on reward table rotations.For more detailed definitions and information,
+visithere.
+Update 31.6(2022-06-09)
+We’ve adjusted the values of older Arcanes with the goal of making lower rank Arcanes more viable, and more desirable while collecting as a result. In short, there are three stats that each Arcane tends to have (speaking generally) -- for example, a percentage chance, a stat buff, and the duration of the buff.
+Certain Arcanes increase all of these stats per rank (making them scale exponentially), but we are changing it so that only one stat is affected by rank (making it scale linearly). The other stats will now be at the max-rank value regardless of the Arcane Rank, thereby buffing lower-rank Arcanes as a result.
+On Damaged: 60% (was 10%) chance for 10%/60% Parkour Velocity for 18s (was 3s)
+Update 22.12(2018-02-09)
+Update 16.0(2015-03-19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

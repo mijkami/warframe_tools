@@ -1,0 +1,148 @@
+Damage(version 3.0) is a system that determines the damage done to a certain target by a given attacker. Damage results are modified by several mechanics –damage type modifiers(main content of this article),armor,critical hit bonuses,stealth bonuses,Warframe ability debuffs,body part modifiers,faction modifiers, and other sources ofdamage reduction– which are discussed below and on their respective pages.
+All damage dealt by any weapon or ability belongs to a certain damage type, and every target has specific resistances and vulnerabilities to different damage types. In-game, enemy resistances and vulnerabilities can be seen in the player'sCodexafter scanning at least one enemy of a particular type or by aiming at an enemy using theSynthesis Scannerwith theData-Parse Widget. Exploiting enemy vulnerabilities and avoiding resistances by means of weapon selection and mod installation may significantly improve players' damage output.
+Since its predecessorDamage 2.0, all different Health, Armor, and Shield types have been simplified into one type for each (e.g. Grineer'sCloned FleshandMachineryis now just "Health",Ferrite ArmorandAlloy Armoris now just "Armor", andShieldandProto Shieldis now just "Shield"). Vulnerabilities and resistances have also been decoupled from health types and are now solely based on the enemyFaction(e.g. allGrineerare now exclusively vulnerable toImpactandCorrosiveat all times, regardless of the presence of armor or shields, and no longer have any resistances).
+Damage dealt from players to enemies is displayed on theHUDas numbers near the point of impact on an enemy. Damage dealt from enemies to players is displayed on the HUD both as a bent strip to indicate its direction of origin and as a reduction in shield or health hitpoints to indicate its quantity.
+Each individual projectile or melee attack will display a single damage instance whose value is rounded to the nearest integer. Weapons with multiple projectiles like shotguns or rifles withMultishotwill display a damage instance for each individual projectile. Weapons that fire continuously will display a damage instance at a constant rate depending on the fire rate of the weapon.
+Damage indicators are color-coded using the following system (default UI colors):
+Every weapon, ability or method of dealing damage is classified as one or more types of damage. Through mods or abilities, further types of damage can be added to attacks.
+When multiple damage types are present on an attack, all of them will deal their respective amounts independent of each other, but only one damage number calculated from the combined value of the damage types will show.
+With each shown damage value, there is also a chance of aStatus Effectoccurring; the likelihood of which type of damage this Status Effect is based on depends on the percent distribution of the damage types on the weapon.
+Most weapons' base damage is made up of a combination of three physical damage types:Impact,Puncture, andSlash. The overall physical damage of any given weapon is the sum of Impact, Puncture, and Slash damage. This is sometimes referred to asIPS.
+Although most weapons have varying proportions ofImpact,Puncture, andSlash, some weapons (such as theGlaxionorPhage) can have no physical damage at all. Other weapons (like thePlinxorTysis) can deal a combination of physical and elemental, or combo elemental damage.
+Unlike elemental, or combo elemental damage types which can be added via mods, physical damagecannotbe added to weapons already lacking them. Weapons that do not have one or more components of physical damage arenotaffected by the respectiveImpact,Puncture, orSlashmods.
+General damage increasing mods such asSerrationaffectallthe base damage types of a weapon. Additionally,Faction Damage Modssuch asExpel Grineeralso affect damage as a total damage multiplier against the faction in question.
+Elemental Damage can be applied on top of a weapon’s base damage depending on what Elemental Mods are applied. There are four primary Elemental Damage types:Heat,Cold,Electricity, andToxin.
+A single primary Elemental Damage type can be applied alone, but if a second primary Elemental Damage type is introduced they will combine into a secondary Elemental Damage type.
+Creating these secondary elements requires mixing two primary elements together.
+The status effect ofBlastdamage isDetonate. It causes a miniature explosion inflicting30%of base damage after1.5seconds. If the effect is forced to end early, either by reaching the maximum10stacks or when the target dies, all stacks are dealt simultaneously and enemies within5meters are dealt300%of base damage. The radius is unaffected byFirestormorFulmination.
+Elemental Damage is applied in addition to a weapon's physical damage types.
+Weapon Damage = (Impact+Puncture+Slash) + (Elemental Damage Types)
+Note that a primary elemental damage type that has been combined into a secondary type will no longer be dealt to the weapon's targets, nor its status effect will be applied to the targets either. For example, a weapon dealingBlastdamage that is created by combiningCold+Heatwill no longer dealColddamage or cause itsFreezeeffect, norHeatdamage or itsIgniteeffect to this weapon's targets.
+Elemental Damage Combinationsare made by following a mod placement hierarchy. This hierarchy is from closest to top left (first to be considered) to the bottom right (last to be considered) on the mod layout. Innate weapon elemental damages are considered the very last in any hierarchy, with one exception: some Kuva and Tenet weapons fromKuva LichesorSisters of Parvosare capable of having two base elemental damages (one from the weapon, one from the Valence damage of the Progenitor Warframe that made the Lich/Sister). In these cases, whichever of the two primary elements comes first in this element order -Heat>Cold>Electricity>Toxin, or"HCET"for short - will be placed second to last in the element combine order, while the other primary element will be placed last in the combine order.
+However, a weapon's innate elemental damage can be forced into a different position in the hierarchy (and thus be combined into a secondary element earlier) if the player has equipped a mod of the same element as the innate element. As well, when using multiple mods with the same element, the first position that element is placed in establishes its hierarchy and where it's combined.
+For example, puttingStormbringeron the top left slot of anAmprexwill change the position of its innateElectricitydamage from last in hierarchy to first in hierarchy. Similarly, placingThermite Roundsearlier in the hierarchy before placingHellfirewill still count theHeatdamage where it was first placed.
+A weapon's innate elemental damage will contribute to elemental combinations, as long as the combination has been established earlier in the hierarchy. It can also combine with the last uncombined elemental mod in the hierarchy to form a secondary element.
+For example: when modding a weapon withElectricitysuch as theProvaor theLecta, then addingCold,Toxin, andHeatin 1, 2 and 3 respectively get:Viral(Cold+Toxin) andRadiation(Heat+Electricity).
+In the case ofRiven Modswhere there is more than one elemental stat present, the hierarchy priority will be given to thelastelemental stat listed on the Riven mod. For example, a Riven mod with a bonus of +100%Electricitydamage first and +90%Toxindamage last, will enable theToxindamage to combine with an elemental mod higher up in the hierarchy, and theElectricitydamage will combine with an elemental damage type lower in the hierarchy. If no other elemental damage mods are present, the elements on the Riven mod will combine with itself.
+Weapons with innate secondary elements such asOgris(Blast),Penta(Blast),Stug(Corrosive),Nukor(Radiation) andDetron(Radiation) willalwayshave that damage type, regardless of mods used. On weapons like these, basic elemental damage mods will combine and functionindependentlyof the innate secondary elements, as basic elementscannotcombine with a weapon's already combined innate damage type.Kuva WeaponsandTenet Weaponswill follow this behavior too. For example, aTenet Detron(Radiation) can come with an additionalElectricityProgenitor damage bonus that willnotadd onto the innateRadiationdamage.
+Except for weapons with innate secondary elemental damage, it is impossible to add more than two elemental damage types on a single weapon, because there are only four types of primary elemental damage and every two types of primary damage will be automatically combined into a secondary type. Because of this mechanic, the following combinations of added elemental damage are possible on a single weapon:
+
+These damage types are unique as they are not available as base damage types for any typical weapons nor can they be added through mods.
+Empyreangamemode andRailjacksuse a slightly altered system of the currently existing damage system.ArchgunsandArchmeleesdeal 90.91% (10/11) reduced damage to space enemies (or 9.09% of its arsenal damage) while Railjack Armaments andTactical modsdeal their full listed damage to them before accounting for hit point resistances and vulnerabilities.
+Primary physical and elemental damage types have different status effects against space enemies outlined in the chart below. Secondary elemental damage types (Blast,Corrosive,Gas,Magnetic,Radiation, andViral) do not have altered status effects and cannot proc against space enemies, but Archguns and Archmelees modded for secondary elementals will still increase total damage.
+This system does not apply to on-foot enemies, such asRamsledboarding parties, andCrewshipand Points of Interest personnel, who will take damage and status as per normal.
+AStatus Effect, also known asproc, is an additional effect that may be triggered at random by a hit from a weapon, whileStatus Chanceis the probability that a hit will inflict a Status Effect. Each damage type has a unique Status Effect associated with it.
+It is a common misconception that status effects determine the damage type dealt to the enemy when in facta weapon will always (with every shot) deal any elemental and physical damage installed, regardless of the corresponding status triggering or not.In other words, status chance/effects are independent from the actual damage types dealt.
+Damage over time, or "DoT," is a type of damage dealt to targets periodically over a duration of time. These instances of damage, or "ticks," typically occur once every second i.e. forStatus Damageand some abilities e.g.SporesandElemental Ward.
+If the initial hit is affected by the following, a resulting, damage-dealing effect will also benefit accordingly:
+The formula enemy damage scales at is as follows:
+
+
+
+
+
+
+
+
+
+
+Update 37.0(2024-10-02)
+Hotfix 36.0.3(2024-06-20)
+Update 36.0(2024-06-18)
+As discussed over the last two months, across both Devstreams 179 and 180, we’ve overhauled Warframe’s Health Types and Resistances alongside a select few Status Effects!
+To help players revisit their builds following these changes, an inbox containing 3x Forma will be sent to all players today (June 18th) at 12pm ET today.
+New Health Types
+Previously, enemy resistances and vulnerabilities were split between 13 Health Types:
+Each of these Health Types had unique interactions with the various Status Types:
+Optimizing builds to make use of this system required players to memorize health types per enemy (not just per Faction) and their resistances/vulnerabilities. Our goal is to reduce the friction necessary to engage in optimal play, so we’ve:
+a) Simplified the number of Health Types
+b) Redesigned how Faction Resistances work
+c) Increased the visibility of the new vulnerabilities in normal gameplay flow
+Instead of having 13 Health Types, we have simplified them into 4:
+Now, these Health Types only serve to differentiate between Status Effects and Abilities that affect them, such as Magnetic hindering Shields, Corrosive stripping Armor, or Viral amplifying Health damage.
+We’ve changed the system so that Resistances and Vulnerabilities areno longer tied to the previous Health Types. Resistances and Vulnerabilities are now based upon the Faction a player is engaging with.
+Vulnerabilities are now listed in The Star Chart mission nodes! Here, we aim to recommend the appropriate per-Faction Resistances, which will then universally affect that specific group.
+The Star Chartnow shows Faction Resistances per node. Aligned with the present Faction,Vulnerabilities and Resistanceswill be listed to communicate the “Suggested Damage” options best used against any specific Faction or location.
+Sub-Factions will also have different Vulnerabilities and Resistances from their primary counterpart. The three main Sub-Factions are:
+Viewing Faction Vulnerabilities and Resistances now also depends on where the player is within Warframe’s Story. The Factions (and Sub-Factions) will be unlocked via:
+Factions:
+Sub-Factions:
+Kuva Grineer: Unlocked afterThe War Within Questcompletion.
+Corpus Amalgam: Unlocked afterJupiter Junction.Deimos Infested: Unlocked afterHeart of Deimos Questcompletion.
+With the removal of Resistances/Vulnerabilities being tied to Health Type, they will now be Faction-specific.
+Default Faction Vulnerabilities and Resistances:
+Factions by Quest Vulnerabilities and Resistances:
+With these Resistance and Vulnerability changes, we’ve made a notable decision to makeImpactdeadlier towards theGrineer, while makingPuncturedeadlier towards theCorpus. This is a departure from the previous system, however, we believe that these two Statuses are more suited for these specific Factions.
+SinceImpact Status EffectsenablesMercyactions, we found that it wasn’t all too effective againstCorpusdue to their lower Health counts compared to theirShields, whileMercykillingGrineeris more accessible due to their innate tankiness. TheCorpuscan deliver incredibly high amounts of raw damage, allowing forPunctureto naturally play effectively into limiting their damage potential.
+Hotfix 33.6.1(2023-07-31)
+Missed Notes:
+Update 33.6(2023-07-27)
+Warframe is a numbers game, whether you’re Modding your Warframe or your Weapons to do as much damage as possible. With that in mind, we have introduced a newEnhanced Damage Numbersetting with the goal of properly communicating the impact of your attacks and increasing the overall legibility of damage numbers in-game.
+This new setting can be found in the Interface: HUD Category of your Settings Menu under “Show Damage Numbers.” You can cycle between the newEnhancedsystem and the familiarLegacysystem or turn off damage numbers altogether!
+Overall Damage Number Changes:Whether you are using Legacy or Enhanced Damage Numbers, these new settings will be available with Echoes of Duviri:
+Damage Number ScaleCustom scaling of your damage number text size, from 50 to 300!
+Additionally, Damage numbers will no longer scale with HUD scale setting as they used to. So you can customize the HUD and the numbers separately.
+Compact Damage NumbersThis Toggle will shorten large numbers for legibility (i.e. 100,357 would be shortened to 100k)
+Enhanced Damage Numbers SettingWith this new setting toggled on, players can expect to see the following:
+Refreshed Damage Number AppearanceA punchier presentation of damage numbers, with an updated font treatment to improve legibility. For reference of what this looks like in action, refer to Pablo’s video above.
+Prioritized Critical HitsPlayer damage output varies wildly from damage over time (DOT) from Status Effects to powerful Critical Hits. Previously all types of Damage were treated the same in the Damage Number cycle: meaning, Critical Hit Damage Numbers often disappeared quickly if there were a lot of small DOT procs happening concurrently. From a gameplay side, this had no impact on the actual damage done to your enemies, but it meant the true impact of your Critical Hits was not always communicated to you as clearly as we would like.
+Now, yourCritical Hits will be prioritized over smaller damage numbers.Those smaller numbers will still appear but now disappear sooner if higher-priority damage is done. Additionally, this prioritization system applies to Critical Hit Tiers as well, meaning Super Critical Hit Damage Numbers will linger longer than regular Critical Hits.
+Custom Ability Damage TreatmentSince your Abilities traditionally cannot Crit, these attacks tend to have less oomph. Now Ability Damage has its own Damage Color so that it will stand out amongst the rest!
+Like all other Damage Numbers, you can customize Ability Damage colors in the “Customize Hud Colors” menu (found in the Interface category of your Accessibility Settings).
+Melee Damage NumbersWith Legacy settings, Damage Numbers appear at the point of contact, often off-screen or otherwise obstructed by Melee attacks.
+With Enhanced settings, Melee Damage numbers will now travel with you to improve visibility and will travel with the attack movement as well. Again, this is best illustrated in Pablo’s video for those who want to see this in action!
+Hotfix 32.2.1(2022-11-30)
+Update 32.2(2022-11-30)HUD Improvements:The following changes have been made to better communicate an enemy’s state to players via HUD improvements.
+Update 27.2(2020-03-05)
+This section will go over before and after scenarios with our enemy Armor, Health, and Shield changes. Reading this section should give you a conceptual and on-paper understanding of what we’re changing and why, but practical experiences will tell the full story here. You may need to refresh some aspects of your Builds to truly optimize your power against your enemies.
+Before: Armor, Shields and Health on an Exponential Curve
+After: Armor Shields and Health on an S curve
+Enemy Damage output should still be close to what is currently on the Live version of the game, but we have made a few changes that will affect how players take Damage in-game.
+Player Shields, Health, and Armor used to be shared with all AI, so they had all the weaknesses and resistances that their AI counterparts did.
+Now Players have their own unique Shield, Health, and Armor type classified as TENNO! These have all weaknesses and resistances neutralized (for now). Player Shields now reduce 25% of incoming damage. Player Shields now recharge with custom player-only logic. Shield recharge delays are based on depleted or partial depleted shields. Partially depleted shields (any amount) is a 1 second recharge delay. Full depletion is a 4 second recharge delay.
+These changes to Player shields are in addition to coming Shield Gating changes, which you can read about in our Shield Gating section!
+Why: Armor Scaling and enemy Damage Reduction was the nucleus for this change. For years Tenno have had the tools to deal with these things, but the tools were uniform: Use Corrosive Projection, or else. While this is a simplification, it removed the feeling of choice. With these changes, we hope players experience a feeling of variety and choice when taking on enemies. By changing the scaling for Armor, we could consistently change the scaling for all!
+But wait - THERE’S MORE! In addition to being able to achieve two Status Effects on a single shot with >100% Status,  we are also adding new meaning if you get a duplicate Status Effect on an enemy overall.
+This section will outline exactly what this means for each Status type, including information on how multiple Status Effects behaved with stacking prior to this Hotfix:
+Hotfix 27.0.9(2020-01-09)
+The idea of ‘one damage type to rule them all’ is one we want to avoid in Railjack’s early days. We are rebalancing aspects of certain Damage types to ensure there’s balanced choices. The Armor changes in conjunction with this means this is a combined effort of finding the right place for all damage types, not just one leader. Please bear with us as we navigate this particular space - with your help, hopefully everyone will get to put their favourites from their Arsenal to use!
+Hotfix 25.7.5(2019-09-09)
+Update 11.2(2013-12-04)
+Update 11.0(2013-11-20)
+Source:https://forums.warframe.com/topic/132366-information-on-damage-20/
+This new damage system introduces a number of new terms. This post will take you through introducing and explaining these terms, then elaborating on what they mean for combat. Keep in mind that things are subject to change, that some terms may be placeholder.
+Every weapon in the game is made up of a combination of these three damage types. The overall damage of any given weapon is the sum of Impact, Puncture, and Slash damage. Weapons will exhibit a variety of combinations on the Impact, Puncture, and Slash damage spectrum. Mods will affect damage types as decided by the player by their loadout.
+In short, Weapon Damage = (Impact + Puncture + Slash)
+Real-life Firearm Metaphor: Impact = Slug; Puncture = Armor Piercing; Slash = Hollow-point. When assigning physical damage aspects to weapons we avoid making them 'pure' (100% in one direction). This ensures you can damage all enemies in the game.
+In addition to the 3 base damage types, Elemental Damage can be applied on top of a weapon’s base damage depending on what Elemental Mods are applied. For some rare weapons, elemental damage is all they have.
+There are four primary Elemental Damage types:
+Elemental Damage can be applied alone but if you combine primary elements they create new combined elemental damage types! This opens up new possibilities, reduces 'rainbow build' problems and reduces some of the confusing effects like 'frozen guy is on fire'.
+To create these combined elements requires mixing two primary elements together:
+Elemental Damage is applied in addition to a weapon’s physical damage types.
+Weapon Damage = (Impact + Puncture + Slash) + (Elemental).
+Elemental Damage Hierarchy & Combining Elementals
+Elemental damage combinations are made by following a strict order.
+Fire, Cold, Electric, Toxin.
+As an example: If you want Fire damage + Magnetic damage (Cold + Electricity), you will need to split it between weapons because when a Fire Mod enters the mod loadout any other elementals will combine with it as it is first in the hierarchy.
+After reviewing this thread and working things out with combinations, we have changes to report to Elemental Combinations. Elemental combinations will no longer be based on a predetermined elemental hierarchy, but instead aMOD PLACEMENThierarchy.
+This hierarchy is from closest to top left (first to be considered) to closest to bottom right (last to be considered) on the Mod Layout.
+If you place Cold, Toxin, Fire, and, Electric, in that order from top left to bottom right, you will get:
+(Cold + Toxin) and (Electric + Fire).
+All damage types have a chance to inflict a status on the target – including you!
+Impact: Knockback
+Puncture: Weakened (reduced damage output)
+Slash: Bleed (health reduced over time, healing blocked)
+Fire: Ignited (fire damage over time)
+Cold: Slowed
+Electric: Chain Electricity Damage
+Toxin: Poison Damage over time to health.
+Blast: Stun
+Gas: Poison in area
+Radiation: Confusion (difficulties targeting)
+Magnetic: Shield reduction
+Viral: Sickened
+Corrosive: Armor Damage
+Enemy levels now fall in a more compressed scale. Level 1 enemies are still the easiest, but the difficulty of a Level 40 enemy in Damage 2.0 will be comparable to a Level 100 enemy in Damage 1.0. Infinite mission types will still feature ever increasing enemy levels. Enemies will be wielding weapons that can inflict different types of damage and Procs on the Tenno, meaning the difficulty will come from a combination of their loadouts and their level.
+Enemies will react to damage types differently. Begin hunting your enemies to discover the best way to approach different faction and enemies. With your Primary, Secondary, and Melee weapon, you will be able to take on the fiercest foes with many different combinations.
+Damage 2.0 is a very significant change to Warframe. We are standing by to receive feedback and experiences on this new Damage system when it is released.
+Thank you for reading, everyone!
