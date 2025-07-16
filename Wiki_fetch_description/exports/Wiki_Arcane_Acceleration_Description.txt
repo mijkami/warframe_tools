@@ -1,14 +1,14 @@
-Arcane Accelerationis anArcane Enhancementthat provides a 30% chance on eachCritical Hitto increase thefire rateof non-shotgun primary weapons for 9 seconds.
-Can be sold for500Credits500.
-All drop rates data is obtained fromDE's official drop tablesstored onModule:DropTables/data.
-SeeMission Rewards#Standard Missionsfor definitions on reward table rotations.For more detailed definitions and information,
-visithere.
-Update 31.6(2022-06-09)
+Arcane Acceleration is an Arcane Enhancement that provides a 30% chance on each Critical Hit to increase the fire rate of non-shotgun primary weapons for 9 seconds.
+Can be sold for 500 Credits 500 .
+All drop rates data is obtained from DE's official drop tables stored on Module:DropTables/data .
+See Mission Rewards#Standard Missions for definitions on reward table rotations. For more detailed definitions and information,
+visit here .
+Update 31.6 (2022-06-09)
 We’ve adjusted the values of older Arcanes with the goal of making lower rank Arcanes more viable, and more desirable while collecting as a result. In short, there are three stats that each Arcane tends to have (speaking generally) -- for example, a percentage chance, a stat buff, and the duration of the buff.
 Certain Arcanes increase all of these stats per rank (making them scale exponentially), but we are changing it so that only one stat is affected by rank (making it scale linearly). The other stats will now be at the max-rank value regardless of the Arcane Rank, thereby buffing lower-rank Arcanes as a result.
 On Critical Hit: 30% (was 5%) chance for 15%/90% Fire Rate to Primary Weapons (excluding Shotguns) for 9s (was 2s)
-Update 22.12(2018-02-09)
-Update 16.0(2015-03-19)
+Update 22.12 (2018-02-09)
+Update 16.0 (2015-03-19)
 
 
 

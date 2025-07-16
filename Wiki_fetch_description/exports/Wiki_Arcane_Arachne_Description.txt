@@ -1,14 +1,14 @@
-Arcane Arachneis anArcane Enhancementthat increases the player's weapon damage for 30 seconds whenever theywall latch. This cannot be refreshed while active.
-Can be sold for1,000Credits1,000.
-All drop rates data is obtained fromDE's official drop tablesstored onModule:DropTables/data.
-SeeMission Rewards#Standard Missionsfor definitions on reward table rotations.For more detailed definitions and information,
-visithere.
-Update 31.6(2022-06-09)
+Arcane Arachne is an Arcane Enhancement that increases the player's weapon damage for 30 seconds whenever they wall latch . This cannot be refreshed while active.
+Can be sold for 1,000 Credits 1,000 .
+All drop rates data is obtained from DE's official drop tables stored on Module:DropTables/data .
+See Mission Rewards#Standard Missions for definitions on reward table rotations. For more detailed definitions and information,
+visit here .
+Update 31.6 (2022-06-09)
 We’ve adjusted the values of older Arcanes with the goal of making lower rank Arcanes more viable, and more desirable while collecting as a result. In short, there are three stats that each Arcane tends to have (speaking generally) -- for example, a percentage chance, a stat buff, and the duration of the buff.
 Certain Arcanes increase all of these stats per rank (making them scale exponentially), but we are changing it so that only one stat is affected by rank (making it scale linearly). The other stats will now be at the max-rank value regardless of the Arcane Rank, thereby buffing lower-rank Arcanes as a result.
 On Wall Latch: +25/150% damage for 30s (was 5s)
-Update 24.2(2018-12-18)
-Update 17.9.1(2015-10-29)
+Update 24.2 (2018-12-18)
+Update 17.9.1 (2015-10-29)
 
 
 
