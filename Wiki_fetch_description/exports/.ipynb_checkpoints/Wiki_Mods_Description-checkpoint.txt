@@ -1,0 +1,130 @@
+Mods , short for Modifications [ 1 ] [ 2 ] or Modules , are the upgrade system in WARFRAME in the form of special cards that can be equipped on Warframes , weapons , companions , and vehicles to enhance damage , power, survivability, speed, mobility, precepts , and utility.
+The Mods system is accessible after the completion of "Liberate the imprisoned arms dealer" tutorial mission from the Vor's Prize Quest , by installing the Mods Segment reward from said mission onto the Orbiter , which will permanently unlock the Mods system for use via the Arsenal ("Upgrade").
+From the Arsenal , you can install mods on your equipment, but they are limited by the equipment's mod capacity that depends on the level of the equipment. Any mod can be installed/removed freely and can be applied to several equipment at the same time. You can also upgrade your mods by using Endo Endo Endo and Credits Credits Credits through the process of Fusion .
+Mods have several attributes:
+For mods of the lowest 4 tiers (Common-Legendary), their rarity defines both increasing with rarity applicable fusion costs and trading taxes (being highest for Legendary out of all mods in game), while the 5 highest tiers (Riven-Requiem) share these with Rare mods (except Peculiar - sharing with Uncommon instead).
+Most mods have an increasing number of diamonds at the top of their mod cards depending on their rarity. In the order of increasing rarity these are:
+The other tiers do not have rarity pips displayed on their mod cards, and instead may be distinguished by a unique material on their mod cards. In the order of increasing rarity these are:
+Plexus mods have a unique styling mimicking the Railjack aesthetic:
+Multiple specialized UI environments exist to facilitate players' various interactions with mods:
+Introduced in Update 12.0 (2014-02-05), mods of the same type and fusion level are placed into an item stack, with a number on the top left showing how many of that item is available. This process is essential in reducing clutter and is also used to ease the process of selling or dissolving mods.
+Once the Mods system has been unlocked, mods can be installed by visiting the Arsenal on your Orbiter , selecting the desired Mod destination (e.g. Warframe , Weapon ), and then clicking on the UPGRADE button. Afterward either click on ACTIONS > APPLY AUTO INSTALLATION , or simply drag a mod from the collection and drop it on a Mod slot. Mod installation and removal is instant and free.
+Mods are placed in Mod Slots (commonly referred to as "slots"), arrayed in a rectangular grid. In addition to these general slots , which are compatible with the vast majority of mods, some types of equipment have special slots , which are only compatible with a corresponding class of mods.
+The number and type of slots an item will have depends on the type of equipment:
+Items have a limited Mod Capacity , that correlates to their Rank. The maximum rank is normally 30 , but for some items it is 40 . Warframes/Companions/Archwings/K-Drives/Necramechs and Weapons can be supercharged with an Orokin Reactor or Orokin Catalyst respectively, which doubles the available Mod capacity. Mod Capacity functions as a limit to what mods can be equipped depending on their drain. Mods can have a drain of 0 to as high as 20 depending on the mod and what rank it is. Items also have a minimum mod capacity, which adds mod points onto items that are a lower rank than a player's current Mastery Rank . The amount of minimum mod capacity is 15, plus 1 per 2 Mastery Ranks .
+If the Mod Capacity drain is less or equal to the item’s remaining Mod Capacity it will install and Mod Capacity will be deducted.
+Mod drain is modified by Polarity :
+Aura and Stance mods increase Mod Capacity rather than drain it.
+The Railjack analogue of the Arsenal is the Plexus , also located in the Orbiter, and accessible from a Dry Dock.
+Mods can have their overall power increased by the process called Fusion . Fusing a mod with Endo increases the rank, and thereby overall power, of the mod. While the base amount of Endo required to level up from rank 0 to rank 1 is determined by Mods' rarity, each subsequent rank-up requires twice the Endo amounts from the previous rank-up (e.g. Leveling a common mod from rank 0 to rank 1 requires 10 Endo, from rank 1 to rank 2 requires 20, from rank 2 to rank 3 require 40, and so forth).
+Transmutation is one of the ways of acquiring mods. Choosing this Mod Action, players can sacrifice four selected unranked mods to generate a random mod from a list of mods that can be acquired in this way. Alternatively, three selected mods and one Transmutation Core can be used to guarantee a random mod of a specific polarity . Transmutation of Riven Mods requires a Riven Transmuter . Mods that cannot be acquired by transmutation are conventionally called untransmutable mods .
+Choosing this Mod Action, a player can convert a mod into an amount of Credits equal to 75% of the Credits invested in the mod [ 3 ] . Any selection of single mods and/or stacks of mods can be sold, and players are prompted to review and confirm the action after clicking "Sell" (after a mod has been "sold" this way, it isn't physically found anywhere – it has been eliminated). Notably, Riven Mods cannot be sold.
+Choosing this Mod Action, a player can convert a mod into a set amount of Endo , equal to 75% of the Endo invested in the mod [ 3 ] . Riven mods have a special calculation (see the table below) . Any selection of single mods and/or stacks of mods can be sold, and players are prompted to review and confirm the action after clicking "Dissolve" .
+Standard mods (or single-stat mods ) are the basic class of mods : all the mods that provide a straightforward bonus to a single stat. In each item category, each base stat only corresponds to one standard mod. At times, changes to game mechanics have included total redesigns of some mods to become a different single-stat mod or dual-stat mods (e.g. Quickening ), but these are still essentially standard mods. Standard mods are generally equipped in one of the main slots, but some are Exilus mods.
+A standard mod may come in six variants: Normal , Flawed , Primed , Umbra , Amalgam , Galvanized , and Archon . In addition to being eligible for these variants, standard mods may also have a unique variant.
+Rarity only somewhat corresponds to classes of mods: some standard mods are Rare, and some nonstandard mods are Common.
+Players cannot install duplicate mods onto a single piece of equipment. Likewise, different variants of the same mod cannot be equipped together. For example, a given pistol can only accept one Hornet Strike mod at a time, and Flow , Primed Flow , and Archon Flow can't be installed together on a single Warframe.
+Normal standard mods generally drop from regular enemies, and are the most easily obtainable mods. They are transmutable, sellable and tradeable.
+Flawed mods are an inferior variant of standard mods. They have a maximum rank of 3, and provide an overall reduced effect. They are automatically picked up during the course of the Vor's Prize quest. Flawed mods are untransmutable and untradeable. The quest in which are they are obtained is not replayable, so there is no way to gain additional Flawed mods subsequent to it. Visually, Flawed mods have a cracked image.
+Primed mods are a superior variant of mods, that have had their maximum rank increased to 10. Most Primed mods can be obtained from Baro Ki'Teer , but four Primed mods, Primed Fury , Primed Vigor , Primed Shred , and Primed Sure Footed are only obtained from 200/400/600/900 Daily Tributes and cannot be traded with players. All Primed mods are of the Legendary rarity, and they are untransmutable.
+Umbra mods are a class of Legendary mods, that feature the properties of both Primed mods and Set Mods . All are a superior variant of a standard mod, while also possessing a second stat that grants enhanced effectiveness when fighting Sentient enemies. They are divided in sets, but the Set Bonus of each set is the same: an increase of each mod's bonuses. Umbra mods are acquired through the The Sacrifice Quest (and can thereafter be reacquired via Cephalon Simaris ). They are untransmutable and untradeable. All Umbra mods have the exclusive Umbra polarity that can only be applied with an Umbra Forma . Visually, Umbra mods are Legendary mods with a set indicator.
+Amalgam mods can be either slightly inferior or superior variants, and come with certain additional properties . Some sacrifice a small amount of their main bonus to provide a small bonus to another stat of an altogether different item . Others are weapon-specific, and are actually superior variants, while still having a second stat. The latter also usually have a third stat, generally understood as a novelty/utility feature (e.g. extra gore). Amalgam mods do not have a formal Rarity tier, but yield the same amount of Credits and Endo when sold and dissolved, respectively, as Rare mods. They are untransmutable and untradeable. Thematically, they are amalgamations of two existing mods (so for example, Amalgam Serration can be seen as a combination of Serration and Rush ). These mods have a distinct Sentient-influenced visual styling.
+Galvanized mods have slightly inferior base stats than their original counterpart, but in turn have stacking buffs from killing enemies that make them a superior variant to standard mods. Their maximum ranks are increased to 10. Galvanized mods do not have a formal Rarity tier, but yield the same amount of Credits and Endo when sold and dissolved, respectively, as Rare mods. Galvanized mods are purchased from the Arbitrations vendor for 20 Vitus Essence each.
+Introduced in Veilbreaker , Archon mods are a special variant of Warframe mods that trigger special effects upon using Warframe Abilities that satisfy conditions such as killing an enemy with a particular element, causing an elemental proc, or healing. All currently existing Archon mods have a max rank of 10 and have rank up costs similar to Legendary mods. Archon mods are purchased using Stock from Chipper upon reaching Rank 3 (Fort) with Kahl's Garrison .
+Nonstandard mods are all the other mods that provide bonuses to either the same stats as the standard mods or to certain other stats, or modify equipment in specific ways. They come in different classes and have a more varied design. Nonstandard mods stack with other mods providing the same type of bonus (certain exceptions exist). Therefore, Vitality (a standard Health mod) stacks with Vigor (a Nightmare mod, providing both a Health and Shield bonus). They generally do not have variants (a small number of Primed Nightmare mods are one exception).
+Nightmare Mode Mods (commonly called Nightmare Mods ) are a class of Rare dual-stat mods – they provide a bonus to two different stats for the same item . They can be acquired through completing missions in the Nightmare Mode . Nightmare mods are untransmutable. Visually, they do not have a clearly distinguishing mark.
+Corrupted mods are a class of Rare mods that affect one stat positively and another negatively . Those available for warframes are characterized by extremely high bonuses balanced by major penalties. Those available for weapons provide bonuses of a similar strength to their standard mod analogues, while still also having a penalty. Corrupted mods can be obtained from the Orokin Derelict , using special Dragon Keys to unlock vaults located within. They are untransmutable. Visually, they do not have a clearly distinguishing mark.
+Conditional mods are mods that require some condition to be met during combat in order for their effect to activate. A large subset of these mods are called Acolyte mods , and these now drop in Deimos bounties ; others are dropped in the same manner as standard mods (notably, Condition Overload ). Acolyte mods are untransmutable, and the remainder may or may not be. Visually, they do not have a clearly distinguishing mark.
+Many Set mods and some Augments (e.g. Hata-Satya ) also have a conditional effect.
+Augment mods ( commonly called Augments ) provide augmentation to a specific Warframe or weapon . On Warframes, they alter abilities or passives. On weapons, they provide straight up bonuses, sometimes superior to standard mods (e.g. Scattered Justice ). Most can be obtained as Syndicate Offerings , but a significant number is obtained elsewhere (for example, some are Executioner Mods ). They are untransmutable. Augments granting Syndicate effects are overlaid with their Syndicate logo.
+Riven Mods provide randomized bonuses to a specific weapon : up to three bonuses, and a penalty. The bonuses on Rivens tend to be based around standard mods (normal or primed), and these base bonuses are modified by a stat individual to each weapon called disposition. When acquired, Riven Mods come in a veiled form which supplies no stats and must have a challenge completed in order to unveil it. They are transmutable using a Riven Transmuter , and transmutation produces a veiled Riven. The only way to obtain unveiled Riven Mods directly is by trading with players. Riven mods are purple.
+Set Mods are a class of Mods that offer increasing bonuses when one or more mods in a set are equipped together in a current loadout. Each mod of a set, apart from it's individual effects, also provides a second Set Bonus effect shared between all the mods in the set, that becomes stronger the more of the set's mods are installed. Many set mods have conditional effects, and some even figure as dual-stat conditional mods (e.g. Motus Setup ). Set mods are untransmutable. They are distinguishable by their shared set prefix (e.g. Augur, Gladiator, Vigilante, etc.) and icon on top of their card.
+The following types of mods have a special, dedicated slot.
+Aura Mods are Warframe mods that benefit the entire Squad and also increase the player's Warframe total mod capacity. They can only be equipped in the dedicated Aura slot and only one Aura can be equipped to a Warframe. They can normally be obtained from Nightwave Cred offerings, but some drop from The Silver Grove specters and Nox . They are untransmutable.
+Stance mods are special mods for Melee Weapons . They increase the player's melee weapon mod capacity and unlock unique attack combos. They can only be equipped in the dedicated Stance slot for a specific weapon type and only one Stance can be equipped to a melee weapon. Most Stance mods are transmutable.
+Exilus Mods are utility or mobility-based mods that can be equipped in the Exilus slot, or if the player chooses, in a general slot. The Exilus slot is present on all Warframes and primary and secondary weapons; on Warframes, it must be unlocked with an Exilus Adapter , and on weapons, it must be unlocked with an Exilus Weapon Adapter .
+Some Exilus mods exist as typical standard mods, e.g. Sure Footed and Primed Sure Footed .
+Some Exilus mods exist as somewhat atypical, but also essentially standard, mods:
+Many Exilus mods are nonstandard mods, such as the the dual-stat "Drift" mods.
+Exilus mods have the Exilus mark near the top.
+Peculiar Mods are a subtype of Exilus mods. They do not offer any mechanical effects at all, instead only causing bizarre cosmetic effects. These mods, despite offering no real benefit to their users, are some of the rarest and most difficult to obtain artifacts in the system. They have a distinct smoky appearance.
+Mods that do not fit in the above categories:
+Precepts are mods which alter the behavior of a Companion , and are effectively the companion's "abilities". Every Companion has their own specific precepts. However, there are precepts that are universal within a class of companions. Upon acquiring a companion, the user is automatically granted some or all of the respective specific precept mods.
+Precepts have "informally" designated slots by virtue of having the Penjaga polarity, exclusive to them, and there being four matching-polarity slots on every companion. Since these are still general mod slots, the player can alter this setup in any number of ways, and Precepts can be installed in other slots as well. Companions will use their precepts in a prioritized order, where the top left slot is the highest priority and the bottom right slot is the lowest.
+Players may not trade away / sell / dissolve a precept if it's their only copy of the mod.
+Visually, Precepts do not have a clearly distinguishing mark (but can be identified in a glance by their polarity).
+Parazon mods may only be equipped on the Parazon and grant effects which are tied to the Mercy mechanic and hacking. A type of Parazon mods are Requiem mods, which are used to defeat a Kuva Lich.
+Railjack Mods (also called Plexus Mods) are applied to the Railjack -modding platfrom called Plexus . They are divided into three categories: Integrated, Battle, Tactical, each category being compatible with the respective mod grid within the Plexus. Integrated mods provide stat bonuses to the Railjack and it's Armaments, and include Railjack Aura mods. Battle Mods provide the Railjack with energy-based abilities, while Tactical Mods provide the Railjack with cooldown-based abilities. Mods in the latter two categories do not drain capacity, but are further divided into Defensive, Offensive, and Super subcategories, each corresponding to a single special slot. They drop in Empyrean missions, and are untransmutable. Visually, Railjack Mods can be identified by their molded alloy trim.
+Conclave Mods can be mainly acquired from the Conclave Syndicate , where they originated from. Some of them can also be used in PvE (possibly with altered stats or effects) and can be obtained through Nightwave Cred offerings, while others are dropped by Sentients .
+Hotfix 39.0.1 (2025-06-26)
+Update 39.0 (2025-06-25)
+Hotfix 38.5.11 (2025-04-17)
+Hotfix 38.5.10 (2025-04-09)
+Hotfix 38.5.5 (2025-03-27)
+Hotfix 38.5.3 (2025-03-25)
+Hotfix 38.5.1 (2025-03-19)
+Update 38.5 (2025-03-19)
+Mod Quick Select Tool
+A Quick Select tool has been added to the Mod Menu that allows players to mass select unranked Mods in their inventory based on the parameters set. In other words, your new favorite duplicate Mod cleanup tool!
+How to use Quick Select:
+There are protections enabled to prevent any mishaps with selecting Mods you’d really not want to accidentally part with. The Quick Select tool will never select Ranked, Legendary, and Riven Mods and it will always ensure that you have at least 1 copy of any given Mod in your inventory.
+General Additions:
+Top Changes:
+Misc. Changes
+UI FIXES:
+Misc. Fixes:
+Update 38.0 (2024-12-13)
+Hotfix 37.0.9 (2024-11-13)
+Hotfix 37.0.7 (2024-10-16)
+Hotfix 37.0.6 (2024-10-11)
+Hotfix 37.0.2 (2024-10-03)
+Hotfix 37.0.1 (2024-10-02)
+Update 37.0 (2024-10-02)
+Hotfix 36.0.8 (2024-07-25)
+Hotfix 36.0.2 (2024-06-19)
+Update 36.0 (2024-06-18)
+Update 35.5 (2024-03-27)
+Hotfix 35.0.2 (2023-12-14)
+Update 35.0 (2023-12-13)
+Update 34.0 (2023-10-18)
+Hotfix 33.5.5 (2023-07-06)
+Update 33.5 (2023-06-21)
+We’ve made a number of changes to how the Auto Install function works when Modding Warframes and weapons! Don’t expect this button to replace the need for careful Modding in high level content, but it should result in more consistently useful builds offering positive stats, especially for newer players.
+Part of this process includes the following changes:
+Hotfix 32.2.9 (2023-01-11)
+Hotfix 32.2.5 (2022-12-14)
+Update 32.1 (2022-11-02)
+Hotfix 32.0.3 (2022-09-14)
+Update 32.0 (2022-09-07)
+Hotfix 31.1.3 (2022-02-15)
+Update 31.1 (2022-02-09)
+Hotfix 31.0.9 (2022-01-20)
+Update 30.5 (2021-07-06)
+Hotfix 30.3.4 (2021-06-02)
+Update 30.2 (2021-05-12)
+Hotfix 29.6.8 (2021-01-25)
+Hotfix 28.0.6.1 (2020-06-24)
+Hotfix 28.0.6 (2020-06-24)
+Update 28.0 (2020-06-11)
+Hotfix 27.3.16 (2020-04-22)
+Hotfix 27.3.12 (2020-04-14)
+Update 26.0 (2019-10-31)
+Update 25.7 (2019-08-29)
+Hotfix 25.6.2 (2019-08-09)
+Hotfix 25.5.1 (2019-08-02)
+Update 23.10 (2018-10-12)
+Update: Specters of the Rail 0.0 (2016-07-08)
+Hotfix 18.13.2 (2016-06-01)
+The starting Mod Capacity for your gear (new or Forma'd) is now determined by your Mastery Rank and if an item has an Orokin Reactor or Catalyst installed.
+For example, a Mastery 20 player would experience the following:
+The formula is: Starting Mod Capacity = Mastery Rank (x2 if Orokin Reactor/Catalyst installed)
+The cap on capacity remains unchanged.
+Please note this is a slight deviation of our discussions on how Mastery Rank will reflect gear level, but by affecting capacity it fundamentally enables you to use Mods the moment you get your hands on new gear or Forma an item. Have fun!
+Update 18.12 (2016-05-17)
+Hotfix 15.1.3 (2014-11-08)
+Update 15.0 (2014-10-24)
+Update 14.5 (2014-08-28)
+Update 14.2 (2014-08-13)
+Update 9.5 (2013-08-09)
+Update 7.0 (2013-03-18)
+Last updated: Update 26.0 (2019-10-31)

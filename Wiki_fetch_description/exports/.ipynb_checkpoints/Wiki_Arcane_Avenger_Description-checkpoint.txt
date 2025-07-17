@@ -1,0 +1,26 @@
+Arcane Avenger is an Arcane Enhancement that provides a 21% chance whenever the player receives damage to increase the absolute critical chance of all attacks by 45% for 12 seconds (additive to the final critical chance).
+Can be sold for 1,000 Credits 1,000 .
+All drop rates data is obtained from DE's official drop tables stored on Module:DropTables/data .
+See Mission Rewards#Standard Missions for definitions on reward table rotations. For more detailed definitions and information,
+visit here .
+Update 35.1 (2024-02-20)
+Update 31.6 (2022-06-09)
+We’ve adjusted the values of older Arcanes with the goal of making lower rank Arcanes more viable, and more desirable while collecting as a result. In short, there are three stats that each Arcane tends to have (speaking generally) -- for example, a percentage chance, a stat buff, and the duration of the buff.
+Certain Arcanes increase all of these stats per rank (making them scale exponentially), but we are changing it so that only one stat is affected by rank (making it scale linearly). The other stats will now be at the max-rank value regardless of the Arcane Rank, thereby buffing lower-rank Arcanes as a result.
+On Damaged: 21% (was 4%) chance for +7.5%/45% Critical Chance for 12s (was 2s)
+Update 16.0 (2015-03-19)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
